@@ -66,4 +66,39 @@ section i {
   padding-right: 50px;
   color: #9356DC;
 }
+
+section {
+  position: relative;
+}
+
+section #fonctions {
+  position: relative;
+}
+
+section h2 {
+  position: relative;
+  left: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+section p {
+  text-align: center;
+  border: 1px #f2ecf5 solid;
+  padding: 20px;
+  display: block;
+  background: #f2ecf5;
+  border-radius: 20px;
+  margin: 17px;
+  -webkit-box-shadow: 0px 5px 7px #9b9999;
+          box-shadow: 0px 5px 7px #9b9999;
+  font-size: 19.2px;
+  font-weight: bold;
+  font-family: "Roboto";
+  padding-right: 80px;
+}
+
+ul {
+  display: inline-block;
+}
 /*# sourceMappingURL=style.css.map */
