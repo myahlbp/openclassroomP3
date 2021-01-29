@@ -7,14 +7,14 @@ header {
         margin-bottom: 15px;
         font-size: $texte * 2.4;
    
-        p  {
+        .localisation  {
         font-family: $policetexte;
        
         }
     }
 }
 
-.para1 {
+.intro {
     font-weight: bold;
     color: rgb(51, 48, 48);
     background-color: rgb(182, 174, 174);
@@ -24,13 +24,13 @@ header {
     font-family: $policetexte;
 }
 
-#head  {
+.h2  {
     background-color: rgb(242, 236, 245);
     position: relative;
     bottom: 35px;
 }
 
-.para2 {
+.h3 {
     font-family : sans-serif;
     font-size : $texte * 2;
     font-weight: bold;
@@ -39,7 +39,7 @@ header {
     opacity : 0.8;
 }
 
-.para3 {
+.h3 {
     font-size: $texte * 1.4;
     position: relative;
     text-align: center;
