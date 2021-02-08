@@ -10,7 +10,7 @@ header {
 }
 
 p {
-    background-color: rgb(219, 216, 216);
+    background-color: rgb(163, 158, 158);
     @include shadowtop;
     padding: 15px 15px;
     color: rgb(83, 82, 82);
@@ -24,7 +24,7 @@ p {
 
 
 .intro {
-    background-color: rgb(234, 228, 240);
+    background-color: rgb(242, 236, 245);
     opacity: 0.8;
     padding: 17px 0px 80px;
     position: relative;

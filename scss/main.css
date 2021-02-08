@@ -9,6 +9,7 @@ header {
   text-align: center;
   display: block;
 }
+
 header h1 {
   font-family: "Shrikhand";
   margin-bottom: 15px;
@@ -17,7 +18,8 @@ header h1 {
 
 p {
   background-color: #a39e9e;
-  box-shadow: 0px -2px 4px -2px #888686;
+  -webkit-box-shadow: 0px -2px 4px -2px #888686;
+          box-shadow: 0px -2px 4px -2px #888686;
   padding: 15px 15px;
   color: #535252;
 }
@@ -36,6 +38,7 @@ p {
   font-family: "Roboto";
   font-weight: bold;
 }
+
 .intro h2 {
   position: relative;
   bottom: 10px;
@@ -69,6 +72,7 @@ h3 {
 .fonctionnement {
   position: relative;
 }
+
 .fonctionnement h2 {
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 25px;
@@ -79,11 +83,13 @@ ol {
   position: relative;
   left: 0px;
 }
+
 ol li {
   width: 400px;
   height: 40px;
   background: #f2ecf5;
-  box-shadow: 0px 5px 7px #9b9999;
+  -webkit-box-shadow: 0px 5px 7px #9b9999;
+          box-shadow: 0px 5px 7px #9b9999;
   text-align: center;
   padding-top: 40px;
   margin: 10px;
@@ -126,6 +132,7 @@ ol li {
   padding-bottom: 55px;
   margin-top: 100px;
 }
+
 .resto h2 {
   margin-left: 25px;
   font-family: Arial, Helvetica, sans-serif;
@@ -135,11 +142,13 @@ article {
   position: relative;
   margin-bottom: -120px;
 }
+
 article figure {
   background-color: white;
   border-radius: 20px;
   position: relative;
 }
+
 article figure img {
   width: 420px;
   height: 200px;
@@ -186,9 +195,9 @@ h4 {
   left: 400px;
   bottom: 160px;
 }
+
 .coeur i {
   font-size: 30px;
   color: #353434;
 }
-
 /*# sourceMappingURL=main.css.map */
