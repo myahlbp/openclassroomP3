@@ -9,15 +9,14 @@ header {
     }
 }
 
-p {
+
+.localisation  {
+    font-family: $policetexte;
+    font-weight: bold;
     background-color: rgb(163, 158, 158);
     @include shadowtop;
     padding: 15px 15px;
     color: rgb(83, 82, 82);
-}
-.localisation  {
-    font-family: $policetexte;
-    font-weight: bold;
        
     }
 
@@ -31,6 +30,7 @@ p {
     bottom: 16px;
     font-family: $policetexte;
     font-weight: bold;
+    margin-left: 10px;
     h2  {
     position: relative;
     bottom: 10px;

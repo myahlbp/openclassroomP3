@@ -1,7 +1,28 @@
-
+footer {
+    margin: auto;
+    margin-top: -20px;
+    background: rgb(41, 40, 40);
+    color: white;
+    font-family: $policetexte;
+    padding: 25px;
     
+    h3 {
+        font-family: $policelogotitre;
+        font-size: $texte * 1.6;
+        top: -5px;
+       
+    }
+}
 
+p {
+    margin-left: 10px;
+    font-weight: bold;
+    
+    span {
+        margin-left: 18px;
+    }
+}
 
-
-
-
+.partenaire {
+    margin-left: 10px;
+}
