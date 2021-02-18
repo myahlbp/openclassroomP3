@@ -114,6 +114,8 @@ h4 .prix {
   font-size: 19.2px;
   margin-left: 150px;
   bottom: 30px;
+  font-family: "Roboto";
+  font-weight: bold;
 }
 
 footer {
