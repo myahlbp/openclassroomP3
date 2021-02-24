@@ -1,0 +1,103 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+$primaire: #9356DC;
+$secondaire: #FF79DA;
+$tertiaire: #99E2D0;
+$bgcolor: rgb(177, 174, 174);
+
+$policelogotitre: 'Shrikhand';
+$policetexte: 'Roboto';
+
+$texte : 16px;
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: auto;
+    width: 500px;
+}
+
+header {
+    display: flex;
+    .titre {
+        margin-left: 120px;
+        font-size: $texte * 2.2;
+        font-family: $policelogotitre;
+    }
+}
+.fleche {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+figure{
+    img {
+        width: 500px;
+    }
+}
+
+
+
+
+
+
+
+
+section {
+    background: rgb(242, 236, 245);
+    left: 40px; 
+    bottom: 95px;
+    position: relative;
+    border-radius: 40px;
+    h1 {
+        font-family: $policelogotitre;
+        padding-top: 30px;
+        margin-left: 20px;
+        font-size: $texte * 2;
+    }
+}
+
+.coeur {
+    margin-left: 430px;
+    font-size: $texte * 1.9;
+    position: relative;
+    bottom: 69px;
+
+}
+
+h2 {
+    font-family: $policetexte;
+    text-transform: uppercase;
+    font-size: $texte * 1.2;
+    bottom: 40px;
+    position: relative;
+    left: 20px;
+}
+
+
+
+article {
+    display: flex;
+    background-color: white;
+    font-family: $policetexte;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    bottom: 20px;
+    position: relative;
+}
+.prix {
+    margin-left: 210px;
+    margin-top: 65px;
+}
+
